@@ -18,15 +18,14 @@ public class Volumekubus extends AppCompatActivity {
         setContentView(R.layout.activity_volumekubus);
 
         etKubus = findViewById(R.id.etKubus);
-        button = findViewById(R.id.button7);
+        button = findViewById(R.id.button6);
         hasil = findViewById(R.id.hasil);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String s =  etKubus.getText().toString();
 
-                double sisi = Double.parseDouble(s);
+                double sisi = Double.parseDouble(etKubus.getText().toString());
 
 
                 double volume = sisi * sisi * sisi;
@@ -38,6 +37,7 @@ public class Volumekubus extends AppCompatActivity {
 
 
     }
+
 
     public void backVKubus(View view) {
         super.onBackPressed();

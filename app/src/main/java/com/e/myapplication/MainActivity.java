@@ -27,4 +27,8 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this,Balok.class);
         startActivity(i);
     }
+
+    public void exit(View view) {
+        moveTaskToBack(true);
+    }
 }
