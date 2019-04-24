@@ -38,4 +38,8 @@ public class Volumekubus extends AppCompatActivity {
 
 
     }
+
+    public void backVKubus(View view) {
+        super.onBackPressed();
+    }
 }

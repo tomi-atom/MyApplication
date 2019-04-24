@@ -43,4 +43,8 @@ public class Volumebalok extends AppCompatActivity {
         });
 
     }
+
+    public void backvBalok(View view) {
+        super.onBackPressed();
+    }
 }

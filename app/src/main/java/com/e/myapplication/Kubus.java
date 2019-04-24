@@ -22,4 +22,8 @@ public class Kubus extends AppCompatActivity {
         Intent i = new Intent(Kubus.this,Selimutkubus.class);
         startActivity(i);
     }
+
+    public void backhome(View view) {
+        super.onBackPressed();
+    }
 }

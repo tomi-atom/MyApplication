@@ -23,4 +23,9 @@ public class Balok extends AppCompatActivity {
         Intent i = new Intent(Balok.this,Selimutbalok.class);
         startActivity(i);
     }
+
+    public void backhome2(View view) {
+        super.onBackPressed();
+
+    }
 }

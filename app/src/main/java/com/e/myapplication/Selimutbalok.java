@@ -43,4 +43,7 @@ public class Selimutbalok extends AppCompatActivity {
 
     }
 
+    public void backSbalok(View view) {
+        super.onBackPressed();
+    }
 }

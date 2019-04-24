@@ -15,12 +15,18 @@ public class Kerucut extends AppCompatActivity {
     }
 
     public void selimutkerucut(View view) {
+        Intent i = new Intent(Kerucut.this,Selimutkerucut.class);
+        startActivity(i);
+
+    }
+
+    public void volumekerucut(View view) {
+
         Intent i = new Intent(Kerucut.this,Volumekerucut.class);
         startActivity(i);
     }
 
-    public void volumekerucut(View view) {
-        Intent i = new Intent(Kerucut.this,Selimutkerucut.class);
-        startActivity(i);
+    public void backhome1(View view) {
+        super.onBackPressed();
     }
 }

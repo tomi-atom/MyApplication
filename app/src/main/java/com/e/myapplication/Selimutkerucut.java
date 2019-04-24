@@ -40,4 +40,8 @@ public class Selimutkerucut extends AppCompatActivity {
 
 
     }
+
+    public void backskrucut(View view) {
+        super.onBackPressed();
+    }
 }

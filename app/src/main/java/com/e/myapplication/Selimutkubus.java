@@ -35,4 +35,8 @@ public class Selimutkubus extends AppCompatActivity {
 
 
     }
+
+    public void backsKubus(View view) {
+        super.onBackPressed();
+    }
 }
